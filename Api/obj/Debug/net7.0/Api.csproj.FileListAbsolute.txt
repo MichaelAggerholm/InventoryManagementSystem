@@ -31,3 +31,16 @@ C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\obj\Debug\net7.0\refi
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\obj\Debug\net7.0\Api.pdb
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\obj\Debug\net7.0\Api.genruntimeconfig.cache
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\obj\Debug\net7.0\ref\Api.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
