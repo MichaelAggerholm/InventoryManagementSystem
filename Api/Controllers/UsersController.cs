@@ -2,7 +2,6 @@
 using Api.Dto;
 using AutoMapper;
 using Api.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,27 +23,76 @@ public class UsersController: ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetUsers()
     {
-        // Hent alle brugerer fra databasen til listen contacts
         var users = await _dbContext.Users.ToListAsync();
         // Konverter listen users til en liste af UserDto
         var usersDto = _mapper.Map<List<UserDto>>(users);
-        // Returner listen usersDto
+        
         return Ok(usersDto);
     }
     
+    [HttpGet]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> GetUser([FromRoute] Guid id)
+    {
+        var user = await _dbContext.Users.FindAsync(id);
+        // Konverter user til UserDto
+        var userDto = _mapper.Map<UserDto>(user);
+        if (userDto == null)
+        {
+            return NotFound();
+        }
+        
+        return Ok(userDto);
+    }
+    
     [HttpPost]
-    public async Task<IActionResult> AddUser(UserDto userDto)
+    public async Task<IActionResult> AddUser([FromBody] UserDto userDto)
     {
         // Konverter userDto til en User
         var user = _mapper.Map<User>(userDto);
         // Sæt Id til en ny Guid
         user.Id = Guid.NewGuid();
-        // Tilføj user i databasen
+        
+        // Tilføj user i databasen og gem
         await _dbContext.Users.AddAsync(user);
-        // Gem ændringerne i databasen
         await _dbContext.SaveChangesAsync();
 
-        // Returner user hvis alt gik godt
         return Ok(user);
+    }
+    
+    [HttpPut]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> UpdateUser([FromRoute] Guid id, [FromBody] UserDto userDto)
+    {
+        var user = await _dbContext.Users.FindAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        
+        // Konverter userDto til en User
+        _mapper.Map(userDto, user);
+        
+        // Gem ændringer i databasen
+        _dbContext.Users.Update(user);
+        await _dbContext.SaveChangesAsync();
+
+        return Ok(userDto);
+    }
+    
+    [HttpDelete]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> DeleteUser([FromRoute] Guid id)
+    {
+        var user = await _dbContext.Users.FindAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        
+        _dbContext.Users.Remove(user);
+        await _dbContext.SaveChangesAsync();
+
+        return Ok();
     }
 }
