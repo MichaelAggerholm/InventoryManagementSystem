@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "clvgFAzvkNVFaMzUCBj5lo8J7R7HuDhpkHdcGxmzjwfaV2dkXVeDIQFWWD+wl1ML1NCK4rqkQGhUU6JzkvjUBw==",
+  "dgSpecHash": "1oJtrZ1Qh3NTdyehFMiaoiJ0ht5zstMa2vWLi3Z0fxtgiG5FAf1EaIPKavl7QGTTd0hsGEIgSnJd8XM3bbnYYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92agg\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\92agg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\92agg\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\92agg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\92agg\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\92agg\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.2.23128.3\\microsoft.entityframeworkcore.8.0.0-preview.2.23128.3.nupkg.sha512",

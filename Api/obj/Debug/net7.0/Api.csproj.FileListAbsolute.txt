@@ -44,3 +44,4 @@ C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Micr
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\92agg\RiderProjects\InventoryManagementSystem\Api\bin\Debug\net7.0\BCrypt.Net-Next.dll

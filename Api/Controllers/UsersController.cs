@@ -50,8 +50,11 @@ public class UsersController: ControllerBase
     {
         // Konverter userDto til en User
         var user = _mapper.Map<User>(userDto);
+        
         // Sæt Id til en ny Guid
         user.Id = Guid.NewGuid();
+        // Hash password med BCrypt
+        user.Password = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
         
         // Tilføj user i databasen og gem
         await _dbContext.Users.AddAsync(user);
@@ -73,11 +76,14 @@ public class UsersController: ControllerBase
         // Konverter userDto til en User
         _mapper.Map(userDto, user);
         
+        // Hash password med BCrypt
+        user.Password = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+        
         // Gem ændringer i databasen
         _dbContext.Users.Update(user);
         await _dbContext.SaveChangesAsync();
 
-        return Ok(userDto);
+        return Ok(user);
     }
     
     [HttpDelete]
