@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{7DF74EBB-3EEE-491F-9EED-A5A96504A0BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTests", "ApiTests\ApiTests.csproj", "{92689A7C-B5D5-4014-BB27-CB5767AD4157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{75A4A79B-9C26-424E-B140-2A89E5A3C181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{7DF74EBB-3EEE-491F-9EED-A5A96504A0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF74EBB-3EEE-491F-9EED-A5A96504A0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF74EBB-3EEE-491F-9EED-A5A96504A0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92689A7C-B5D5-4014-BB27-CB5767AD4157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92689A7C-B5D5-4014-BB27-CB5767AD4157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92689A7C-B5D5-4014-BB27-CB5767AD4157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92689A7C-B5D5-4014-BB27-CB5767AD4157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A4A79B-9C26-424E-B140-2A89E5A3C181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A4A79B-9C26-424E-B140-2A89E5A3C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A4A79B-9C26-424E-B140-2A89E5A3C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A4A79B-9C26-424E-B140-2A89E5A3C181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
