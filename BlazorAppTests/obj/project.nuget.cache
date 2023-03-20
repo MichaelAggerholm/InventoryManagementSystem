@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eJ9Fl5pYbrXVcOTjYLULN3dMbFdXZWlybnWWssAAHKPkDSidOqwesydFCfQ0N1n1yltyabz96ki2T3IQEqWVEQ==",
+  "dgSpecHash": "LPa4tho9K7ZqMeeah+nmJ7Amn/3aduJjZRtDg5GASQhgwgJHCnU0wCB6wV+84DHIbJSzUHqdZXGGB410ZtC/xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\ApiTests\\ApiTests.csproj",
+  "projectFilePath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorAppTests\\BlazorAppTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92agg\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\92agg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1331,6 +1331,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BlazorApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazorApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5059,11 +5075,16 @@
       "type": "project",
       "path": "../Api/Api.csproj",
       "msbuildProject": "../Api/Api.csproj"
+    },
+    "BlazorApp/1.0.0": {
+      "type": "project",
+      "path": "../BlazorApp/BlazorApp.csproj",
+      "msbuildProject": "../BlazorApp/BlazorApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Api >= 1.0.0",
+      "BlazorApp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -5078,11 +5099,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\ApiTests\\ApiTests.csproj",
-      "projectName": "ApiTests",
-      "projectPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\ApiTests\\ApiTests.csproj",
+      "projectUniqueName": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorAppTests\\BlazorAppTests.csproj",
+      "projectName": "BlazorAppTests",
+      "projectPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorAppTests\\BlazorAppTests.csproj",
       "packagesPath": "C:\\Users\\92agg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\ApiTests\\obj\\",
+      "outputPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorAppTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5103,8 +5124,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\Api\\Api.csproj": {
-              "projectPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\Api\\Api.csproj"
+            "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorApp\\BlazorApp.csproj": {
+              "projectPath": "C:\\Users\\92agg\\RiderProjects\\InventoryManagementSystem\\BlazorApp\\BlazorApp.csproj"
             }
           }
         }
